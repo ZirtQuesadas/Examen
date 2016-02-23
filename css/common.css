@@ -1,0 +1,14 @@
+.container.bg-blanco
+	{
+	background-color: white;
+	}
+.span
+	{display: inline-block;}
+p	
+{
+	display: inline-block;
+}
+* .LetraEscarlata
+	{
+		color: #ff0055 !important;
+	}

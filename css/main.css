@@ -1,0 +1,267 @@
+body
+	{
+	background-color: rgb(244, 244, 244);
+	}
+	header /* LA INDENTACIÓN SEÑALA LA JERARQUÍA DE ELEMENTOS DEL DOM. */
+		{
+			background-color: #404040;
+			color: #FFFFFF;
+			z-index: 1;
+			padding: 10px 40px 10px 40px;
+		}
+		p.No-logo /* TEXTO QUE PARECE LOGO*/
+				{
+					margin-left: 5px;
+					padding-top: 10px;
+					padding-bottom: 12px;
+					display: inline-block;
+				}
+		p.The /*TEXTO ESTILIZADO*/
+				{
+					font-family: ;
+					font-weight: lighter;
+				}
+		p.Gentleman /*TEXTO ESTILIZADO*/
+				{
+					font-family: ;
+					font-weight: bolder;
+				}
+		nav
+				{
+					position: relative;
+					left: 500px;
+				}
+			ul.header > li
+				{
+					padding: 5px 10px;
+					list-style: none;
+					display: inline-block;
+					font-size: 18px;
+					color: #c0c0c0;
+				}
+				li:hover
+					{
+						background-color: gray;
+					}
+
+
+/*SECCIÓN section.TheGentleman CONTIENE IMAGEN ENCABEZADO Y CUADRO DE TEXTO*/
+/* EMPIEZA LA SECCIÓN-ENCABEZADO*/
+
+section.TheGentleman
+{
+	font-family: ;
+	color: #666;
+	margin-bottom: 0px;
+}
+.IMG-Head
+	{
+	height: 400px;
+	width: 650px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+	}
+section.theGentleman h1
+	{
+		font-size: 35px;
+	}
+section.TheGentleman p
+	{
+		font-size: 18px;
+	}
+div.ReadMore
+{
+	width: 30%;
+	background-color: #a0a0a0;
+	border-radius: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 15px;
+	position: relative;
+	left: 0;
+	padding: 3px;
+}
+div.ReadMore:hover
+{
+	background-color: gray;
+}
+hr
+{
+	color: gray;
+}
+
+/*SECCIÓN section.Latest */
+
+section.Latest 
+{
+	color: gray;
+	padding-bottom: 60px;
+}
+	section.Latest h2 /* cambiar estilo de letra*/
+		{
+			font-weight: bold;
+			margin-top: 7px;
+			margin-bottom: 8px;
+			margin-left: 7px;
+			padding-top: 70px;
+		}
+		section.Latest ul
+		{
+			margin-bottom: 20px;
+		}
+		section.Latest 		li
+		{
+			list-style: none;
+			display: inline-block;
+			padding: 7px 10px;
+		}
+		section.Latest 		li:hover
+		{
+			font-weight: bold;
+			background-color: white !important;
+		}
+			
+		.IMG-Project
+		{
+			background-image: url(../img/main-pic.png);
+			height: 226px;
+			width: 504px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		section.Latest h4
+			{
+				font-weight: bold;
+				margin-top: 10px;
+				margin-bottom: 12px;
+			}
+		div.col-6 p
+			{
+				margin-bottom: 30px !important;
+			}
+						h4	>span
+							{
+								margin-right: 40px;
+							}
+	div.LoadMore
+{
+	width: 10%;
+	background-color: #707070;
+	border-radius: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	position: relative;
+	left: 45%;
+	padding: 3px;
+}
+div.LoadMore:hover
+{
+	background-color: gray;
+}
+div.LoadMore p
+			{
+				vertical-align: center;
+				text-align: center;
+				padding-top: 4px;
+			}
+
+			/* último row de la section*/
+
+
+div.CajaFollow 
+{
+	margin-bottom: 20px;
+	margin-top: -10px;
+}
+div.col-2 i /*Imagen SÍGUEME EN TWITTER*/
+	{
+		position: relative;
+		left: 27%;
+		text-align: center;
+		color: #c0c0c0;
+	}
+div.col-2 div.FollowButton /*Botón FOLLOW TEXTO*/
+	{
+	background-color: #c0c0c0;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	position: relative;
+	width: 50%;
+	left: 20%;
+	}
+div.col-2 div.FollowButton:hover
+	{
+		background-color: #a0a0a0;
+		color: #707070;
+	}
+div.col-10 p
+	{
+		font-size: 25px;
+	}
+
+
+footer
+	{
+		background-color: #404040;
+		color: #FFFFFF;
+		z-index: 1;
+		padding: 10px 40px 10px 40px;
+	}
+ul.footer li
+	{
+		display: inline-block;
+		list-style: none;
+		border: gray dotted white;
+	}
+.Footer-1
+{
+
+}
+div.GentlemanRRSS
+{
+	color: #a0a0a0
+}
+
+.Twitter
+{
+
+}
+.Facebook
+{
+
+}
+.Google
+{
+
+}
+.RS-X
+{
+
+}
+.RS-Y
+{
+
+}
+div.FooterTextBig p
+{
+	font-size: 20px;
+	color: #a0a0a0
+}
+
+section.Footer-3 p
+{
+	text-align: right;
+}
+
+
+.LetraEscarlata
+	{
+		color: #ff0055 !important;
+	}
