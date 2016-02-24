@@ -98,7 +98,7 @@ hr
 section.Latest 
 {
 	color: gray;
-	padding-bottom: 60px;
+	margin-bottom: 0px;
 }
 	section.Latest h2 /* cambiar estilo de letra*/
 		{
@@ -171,9 +171,7 @@ div.LoadMore p
 				padding-top: 4px;
 			}
 
-			/* último row de la section*/
-
-
+/* último row de la section*/
 div.CajaFollow 
 {
 	margin-bottom: 20px;
