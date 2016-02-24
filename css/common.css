@@ -4,11 +4,25 @@
 	}
 .span
 	{display: inline-block;}
+.block
+	{display: block;}
 p	
 {
 	display: inline-block;
 }
-* .LetraEscarlata
+.LetraEscarlata
 	{
 		color: #ff0055 !important;
 	}
+.LetraEscarlataBig
+	{
+		color: #ff0055;
+		font-size: 27px;
+	}
+hr.funny
+{
+	height: 3px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+    opacity: 0.5;
+}
